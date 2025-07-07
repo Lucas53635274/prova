@@ -3,35 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova - 2° Trimestre</title>
+    <title>Prova 2 Trimestre</title>
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 <body>
-    
+
     <header>
-    <h2>Prova - 2° Trimestre</h2>
-
-    <p>Times do interclasse</p>
-
+    <h1>Times do Interclasse - Cadastre-se</h1>
+        <p class="textos">Irá haver interclasse no colégio Angelo Gusso, abaixo está o cadastro</p>
     </header>
-        <main>
+    <main>
+        <p class="textos">Cadastre o seu time logo abaixo clicando no botão</p>
+        <p class="textos">Requisitos para participar: O time deve ser de 3 pessoas de até 15 anos e o seu time terá que ter um nome unico e especial</p>
+    <button onclick="cadstime()">Cadastrar o seu Time</button>
 
-    <p class="texto">Terá um interclasse no colégio e <b>VOCÊ</b> está convidado a participar!!!</p>
-    <p class="texto">Requisitos para participar: um time contendo 3 jogadores de até 15 anos e que sua equipe tenha um nome <b>ÚNICO</b></p>
+    <div id="listatimes"></div>
 
-    <button onclick="times()"> <b>Começe o cadastro o seu time aqui: </b> </button>
-    
     <div id="mostraHTML">
-        <p></p>
+        <p class="textos"> Equipes: </p>
     </div>
-        </main>
 
-
-
+    </main>
     <script src="provinha.js"></script>
-
     <footer>
         <p>Prova Trimestral do 2°Trimestre</p>
         <p>&copy; Copyright Rafael e Lucas - 2° trimestre</p>
